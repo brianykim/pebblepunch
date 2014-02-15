@@ -1,0 +1,17 @@
+{
+  "uuid": "7a2daf5e-621d-4543-b51c-d0bb95c67699",
+  "shortName": "pebbrawl",
+  "longName": "pebbrawl",
+  "companyName": "MakeAwesomeHappen",
+  "versionCode": 1,
+  "versionLabel": "1.0.0",
+  "watchapp": {
+    "watchface": false
+  },
+  "appKeys": {
+    "dummy": 0
+  },
+  "resources": {
+    "media": []
+  }
+}
