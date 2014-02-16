@@ -8,7 +8,7 @@ CCLNK_TGT_F = ['-o']
 CC_NAME = 'gcc'
 CC_SRC_F = []
 CC_TGT_F = ['-c', '-o']
-CC_VERSION = ('4', '7', '2')
+CC_VERSION = ('4', '6', '3')
 CFLAGS = ['-std=c99', '-mcpu=cortex-m3', '-mthumb', '-ffunction-sections', '-fdata-sections', '-g', '-Os', '-Wall', '-Wextra', '-Werror', '-Wno-unused-parameter', '-Wno-error=unused-function', '-Wno-error=unused-variable']
 CFLAGS_MACBUNDLE = ['-fPIC']
 CFLAGS_cshlib = ['-fPIC']
@@ -27,7 +27,7 @@ LINKFLAGS_MACBUNDLE = ['-bundle', '-undefined', 'dynamic_lookup']
 LINKFLAGS_cshlib = ['-shared']
 LINKFLAGS_cstlib = ['-Wl,-Bstatic']
 LINK_CC = ['arm-none-eabi-gcc']
-PEBBLE_SDK = '/home/brianykim/pebble-dev/PebbleSDK-2.0.0/Pebble'
+PEBBLE_SDK = '/home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble'
 PREFIX = '/usr/local'
 RPATH_ST = '-Wl,-rpath,%s'
 SHLIB_MARKER = None

@@ -1,13 +1,13 @@
-# project  configured on Sat Feb 15 14:26:12 2014 by
+# project  configured on Sat Feb 15 21:13:26 2014 by
 # waf 1.7.11 (abi 98, python 20703f0 on linux2)
-# using /home/brianykim/pebble-dev/PebbleSDK-2.0.0/Pebble/waf configure build
+# using /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/waf configure build
 #
 ----------------------------------------
 Setting top to
-/home/brianykim/pebble-dev/PebbleSDK-2.0.0/pebbrawl
+/home/michael/pebble-dev/PebbleSDK-2.0.0/pebblepunch
 ----------------------------------------
 Setting out to
-/home/brianykim/pebble-dev/PebbleSDK-2.0.0/pebbrawl/build
+/home/michael/pebble-dev/PebbleSDK-2.0.0/pebblepunch/build
 ----------------------------------------
 Checking for program gcc,cc
 arm-none-eabi-gcc

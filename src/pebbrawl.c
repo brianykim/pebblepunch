@@ -1,7 +1,12 @@
 #include <pebble.h>
 
+//Track acceleration data
+void accel_data_handler(AccelData*, uint32_t);
+
 static Window *window;
 static TextLayer *text_layer;
+
+
 
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
   text_layer_set_text(text_layer, "Select");
@@ -35,6 +40,17 @@ static void window_unload(Window *window) {
   text_layer_destroy(text_layer);
 }
 
+//HANDLE ACCELERATION DATA HERE
+void accel_data_handler(AccelData *data, uint32_t num_samples)
+{
+  for(uint32_t i = 0; i < num_samples; ++i)
+  {
+    APP_LOG(APP_LOG_LEVEL_DEBUG, "%i", data[i].x);
+    APP_LOG(APP_LOG_LEVEL_DEBUG, "%i", data[i].y);
+    APP_LOG(APP_LOG_LEVEL_DEBUG, "%i", data[i].z);
+  }
+}
+
 static void init(void) {
   window = window_create();
   window_set_click_config_provider(window, click_config_provider);
@@ -44,10 +60,14 @@ static void init(void) {
   });
   const bool animated = true;
   window_stack_push(window, animated);
+
+  accel_service_set_sampling_rate(ACCEL_SAMPLING_10HZ);
+  accel_data_service_subscribe(10, &accel_data_handler);//problem is here
 }
 
 static void deinit(void) {
   window_destroy(window);
+  accel_data_service_unsubscribe();
 }
 
 int main(void) {
