@@ -5,18 +5,21 @@ Archive member included because of file (symbol)
 
 Discarded input sections
 
- .text          0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .bss           0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .init          0x00000000        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .fini          0x00000000        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .text          0x00000000       0x68 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
- .bss           0x00000000       0x1c /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
- .init_array    0x00000000        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
- .fini_array    0x00000000        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
- .eh_frame      0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
- .jcr           0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .text          0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .bss           0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .init          0x00000000        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .fini          0x00000000        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .text          0x00000000       0xc8 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .bss           0x00000000       0x1c /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .init_array    0x00000000        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .fini_array    0x00000000        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .eh_frame      0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .jcr           0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+ .tm_clone_table
+                0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
  .text          0x00000000        0x0 src/pebbrawl.c.7.o
  .bss           0x00000000        0x0 src/pebbrawl.c.7.o
+ .data.state    0x00000000        0x1 src/pebbrawl.c.7.o
  .text          0x00000000        0x0 appinfo.auto.c.7.o
  .bss           0x00000000        0x0 appinfo.auto.c.7.o
  .bss           0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
@@ -580,14 +583,16 @@ Discarded input sections
  .text.calloc   0x00000000        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
  .text.bitmap_layer_get_bitmap
                 0x00000000        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
- .text          0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .bss           0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .eh_frame      0x00000000        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .jcr           0x00000000        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .text          0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
- .bss           0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
- .init          0x00000000        0x8 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
- .fini          0x00000000        0x8 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .text          0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .bss           0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .eh_frame      0x00000000        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .jcr           0x00000000        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .tm_clone_table
+                0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .text          0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+ .bss           0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+ .init          0x00000000        0x8 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
+ .fini          0x00000000        0x8 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
 
 Memory Configuration
 
@@ -597,147 +602,154 @@ APP              0x00000000         0x00006000         xrw
 
 Linker script and memory map
 
-LOAD /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
-LOAD /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
 LOAD src/pebbrawl.c.7.o
 LOAD appinfo.auto.c.7.o
 LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a
 START GROUP
-LOAD /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/libgcc.a
-LOAD /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/../../../../arm-none-eabi/lib/thumb2/libc.a
+LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/libgcc.a
+LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/../../../../arm-none-eabi/lib/thumb2/libc.a
 END GROUP
-LOAD /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
-LOAD /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+LOAD /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
 
 .header         0x00000000       0x82
  *(.pbl_header)
  .pbl_header    0x00000000       0x82 appinfo.auto.c.7.o
                 0x00000000                __pbl_app_info
 
-.text           0x00000084      0x33d
+.text           0x00000084      0x3c6
  *(.text)
  .text          0x00000084       0x14 /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
  *(.text.*)
  .text.accel_data_handler
-                0x00000098       0x60 src/pebbrawl.c.7.o
+                0x00000098       0xd4 src/pebbrawl.c.7.o
                 0x00000098                accel_data_handler
  .text.window_unload
-                0x000000f8       0x10 src/pebbrawl.c.7.o
+                0x0000016c       0x10 src/pebbrawl.c.7.o
  .text.down_click_handler
-                0x00000108       0x18 src/pebbrawl.c.7.o
+                0x0000017c       0x18 src/pebbrawl.c.7.o
  .text.up_click_handler
-                0x00000120       0x18 src/pebbrawl.c.7.o
+                0x00000194       0x18 src/pebbrawl.c.7.o
  .text.select_click_handler
-                0x00000138       0x18 src/pebbrawl.c.7.o
+                0x000001ac       0x18 src/pebbrawl.c.7.o
  .text.window_load
-                0x00000150       0x68 src/pebbrawl.c.7.o
+                0x000001c4       0x68 src/pebbrawl.c.7.o
  .text.click_config_provider
-                0x000001b8       0x30 src/pebbrawl.c.7.o
+                0x0000022c       0x30 src/pebbrawl.c.7.o
  .text.startup.main
-                0x000001e8       0x98 src/pebbrawl.c.7.o
-                0x000001e8                main
+                0x0000025c       0x98 src/pebbrawl.c.7.o
+                0x0000025c                main
  .text.accel_data_service_unsubscribe
-                0x00000280        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000280                accel_data_service_unsubscribe
+                0x000002f4        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000002f4                accel_data_service_unsubscribe
  .text.accel_service_set_sampling_rate
-                0x0000028c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x0000028c                accel_service_set_sampling_rate
+                0x00000300        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000300                accel_service_set_sampling_rate
  .text.app_event_loop
-                0x00000298        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000298                app_event_loop
- .text.app_log  0x000002a4        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002a4                app_log
+                0x0000030c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x0000030c                app_event_loop
+ .text.app_log  0x00000318        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000318                app_log
  .text.layer_add_child
-                0x000002b0        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002b0                layer_add_child
+                0x00000324        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000324                layer_add_child
  .text.layer_get_bounds
-                0x000002bc        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002bc                layer_get_bounds
- .text.memset   0x000002c8        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002c8                memset
+                0x00000330        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000330                layer_get_bounds
+ .text.memset   0x0000033c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x0000033c                memset
  .text.text_layer_create
-                0x000002d4        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002d4                text_layer_create
+                0x00000348        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000348                text_layer_create
  .text.text_layer_destroy
-                0x000002e0        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002e0                text_layer_destroy
+                0x00000354        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000354                text_layer_destroy
  .text.text_layer_get_layer
-                0x000002ec        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002ec                text_layer_get_layer
+                0x00000360        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000360                text_layer_get_layer
  .text.text_layer_set_text
-                0x000002f8        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x000002f8                text_layer_set_text
+                0x0000036c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x0000036c                text_layer_set_text
  .text.text_layer_set_text_alignment
-                0x00000304        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000304                text_layer_set_text_alignment
+                0x00000378        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000378                text_layer_set_text_alignment
  .text.window_create
-                0x00000310        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000310                window_create
+                0x00000384        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000384                window_create
  .text.window_destroy
-                0x0000031c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x0000031c                window_destroy
+                0x00000390        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x00000390                window_destroy
  .text.window_get_root_layer
-                0x00000328        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000328                window_get_root_layer
+                0x0000039c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x0000039c                window_get_root_layer
  .text.window_set_click_config_provider
-                0x00000334        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000334                window_set_click_config_provider
+                0x000003a8        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000003a8                window_set_click_config_provider
  .text.window_set_window_handlers
-                0x00000340        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000340                window_set_window_handlers
+                0x000003b4        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000003b4                window_set_window_handlers
  .text.window_stack_push
-                0x0000034c        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x0000034c                window_stack_push
+                0x000003c0        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000003c0                window_stack_push
  .text.window_single_click_subscribe
-                0x00000358        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000358                window_single_click_subscribe
+                0x000003cc        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000003cc                window_single_click_subscribe
  .text.accel_data_service_subscribe
-                0x00000364        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
-                0x00000364                accel_data_service_subscribe
+                0x000003d8        0xc /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000003d8                accel_data_service_subscribe
  *(.rodata)
  *(.rodata*)
  .rodata.str1.1
-                0x00000370       0x51 src/pebbrawl.c.7.o
+                0x000003e4       0x66 src/pebbrawl.c.7.o
 
-.glue_7         0x000003c4        0x0
+.glue_7         0x0000044c        0x0
  .glue_7        0x00000000        0x0 linker stubs
 
-.glue_7t        0x000003c4        0x0
+.glue_7t        0x0000044c        0x0
  .glue_7t       0x00000000        0x0 linker stubs
 
-.vfp11_veneer   0x000003c4        0x0
+.vfp11_veneer   0x0000044c        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x000003c4        0x0
+.v4_bx          0x0000044c        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x000003c4        0x0
- .iplt          0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+.iplt           0x0000044c        0x0
+ .iplt          0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
 
-.rel.dyn        0x000003c4        0x0
- .rel.iplt      0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+.rel.dyn        0x0000044c        0x0
+ .rel.iplt      0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
 
-.data           0x000003c4        0x4
+.data           0x0000044c        0x4
  *(.data)
- .data          0x000003c4        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .data          0x000003c4        0x4 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
-                0x000003c4                __dso_handle
- .data          0x000003c8        0x0 src/pebbrawl.c.7.o
- .data          0x000003c8        0x0 appinfo.auto.c.7.o
- .data          0x000003c8        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
- .data          0x000003c8        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
- .data          0x000003c8        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+ .data          0x0000044c        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
+ .data          0x0000044c        0x4 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
+                0x0000044c                __dso_handle
+ .data          0x00000450        0x0 src/pebbrawl.c.7.o
+ .data          0x00000450        0x0 appinfo.auto.c.7.o
+ .data          0x00000450        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+ .data          0x00000450        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
+ .data          0x00000450        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
  *(.data.*)
 
-.igot.plt       0x000003c8        0x0
- .igot.plt      0x00000000        0x0 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+.igot.plt       0x00000450        0x0
+ .igot.plt      0x00000000        0x0 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
 
-.bss            0x000003c8        0x8
+.bss            0x00000450        0xc
  *(.bss)
  *(.bss.*)
  .bss.text_layer
-                0x000003c8        0x4 src/pebbrawl.c.7.o
- .bss.window    0x000003cc        0x4 src/pebbrawl.c.7.o
+                0x00000450        0x4 src/pebbrawl.c.7.o
+ .bss.blockcount
+                0x00000454        0x1 src/pebbrawl.c.7.o
+                0x00000454                blockcount
+ .bss.blockreset
+                0x00000455        0x1 src/pebbrawl.c.7.o
+                0x00000455                blockreset
+ *fill*         0x00000456        0x2 
+ .bss.window    0x00000458        0x4 src/pebbrawl.c.7.o
 
 DISCARD
  libc.a(*)
@@ -749,66 +761,56 @@ OUTPUT(/home/michael/pebble-dev/PebbleSDK-2.0.0/pebblepunch/build/pebble-app.elf
 .ARM.attributes
                 0x00000000       0x27
  .ARM.attributes
-                0x00000000       0x1b /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+                0x00000000       0x19 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crti.o
  .ARM.attributes
-                0x0000001b       0x2b /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+                0x00000019       0x29 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
  .ARM.attributes
-                0x00000046       0x33 src/pebbrawl.c.7.o
+                0x00000042       0x33 src/pebbrawl.c.7.o
  .ARM.attributes
-                0x00000079       0x33 appinfo.auto.c.7.o
+                0x00000075       0x33 appinfo.auto.c.7.o
  .ARM.attributes
-                0x000000ac       0x21 /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
+                0x000000a8       0x21 /home/michael/pebble-dev/PebbleSDK-2.0.0/Pebble/lib/libpebble.a(tmpHP0PEBpebble.o)
  .ARM.attributes
-                0x000000cd       0x2b /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+                0x000000c9       0x29 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
  .ARM.attributes
-                0x000000f8       0x1b /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+                0x000000f2       0x19 /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtn.o
 
 .comment        0x00000000       0x4e
- .comment       0x00000000       0x4e /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtbegin.o
+ .comment       0x00000000       0x4e /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtbegin.o
                                  0x4f (size before relaxing)
  .comment       0x00000000       0x4f src/pebbrawl.c.7.o
  .comment       0x00000000       0x4f appinfo.auto.c.7.o
- .comment       0x00000000       0x4f /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtend.o
+ .comment       0x00000000       0x4f /home/michael/pebble-dev/PebbleSDK-2.0.0/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.7.3/thumb2/crtend.o
 
-.debug_line     0x00000000      0x402
- .debug_line    0x00000000       0x71 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .debug_line    0x00000071      0x20e src/pebbrawl.c.7.o
- .debug_line    0x0000027f      0x10e appinfo.auto.c.7.o
- .debug_line    0x0000038d       0x75 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+.debug_info     0x00000000      0xd2b
+ .debug_info    0x00000000      0x9ff src/pebbrawl.c.7.o
+ .debug_info    0x000009ff      0x32c appinfo.auto.c.7.o
 
-.debug_info     0x00000000      0x993
- .debug_info    0x00000000       0x93 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .debug_info    0x00000093      0x547 src/pebbrawl.c.7.o
- .debug_info    0x000005da      0x326 appinfo.auto.c.7.o
- .debug_info    0x00000900       0x93 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+.debug_abbrev   0x00000000      0x345
+ .debug_abbrev  0x00000000      0x291 src/pebbrawl.c.7.o
+ .debug_abbrev  0x00000291       0xb4 appinfo.auto.c.7.o
 
-.debug_abbrev   0x00000000      0x2a9
- .debug_abbrev  0x00000000       0x12 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .debug_abbrev  0x00000012      0x1cd src/pebbrawl.c.7.o
- .debug_abbrev  0x000001df       0xb8 appinfo.auto.c.7.o
- .debug_abbrev  0x00000297       0x12 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+.debug_loc      0x00000000      0x2c3
+ .debug_loc     0x00000000      0x2c3 src/pebbrawl.c.7.o
 
-.debug_aranges  0x00000000       0xa8
+.debug_aranges  0x00000000       0x70
  .debug_aranges
-                0x00000000       0x28 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
+                0x00000000       0x58 src/pebbrawl.c.7.o
  .debug_aranges
-                0x00000028       0x58 src/pebbrawl.c.7.o
- .debug_aranges
-                0x00000080       0x28 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+                0x00000058       0x18 appinfo.auto.c.7.o
 
-.debug_ranges   0x00000000       0x88
- .debug_ranges  0x00000000       0x20 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crti.o
- .debug_ranges  0x00000020       0x48 src/pebbrawl.c.7.o
- .debug_ranges  0x00000068       0x20 /home/michael/pebble-dev/arm-cs-tools/bin/../lib/gcc/arm-none-eabi/4.6.3/thumb2/crtn.o
+.debug_ranges   0x00000000       0x60
+ .debug_ranges  0x00000000       0x60 src/pebbrawl.c.7.o
 
-.debug_loc      0x00000000      0x1bc
- .debug_loc     0x00000000      0x1bc src/pebbrawl.c.7.o
+.debug_line     0x00000000      0x35b
+ .debug_line    0x00000000      0x23d src/pebbrawl.c.7.o
+ .debug_line    0x0000023d      0x11e appinfo.auto.c.7.o
 
-.debug_str      0x00000000      0x4fc
- .debug_str     0x00000000      0x36c src/pebbrawl.c.7.o
-                                0x3da (size before relaxing)
- .debug_str     0x0000036c      0x190 appinfo.auto.c.7.o
-                                0x282 (size before relaxing)
+.debug_str      0x00000000      0x721
+ .debug_str     0x00000000      0x599 src/pebbrawl.c.7.o
+                                0x62d (size before relaxing)
+ .debug_str     0x00000599      0x188 appinfo.auto.c.7.o
+                                0x295 (size before relaxing)
 
-.debug_frame    0x00000000       0xc8
- .debug_frame   0x00000000       0xc8 src/pebbrawl.c.7.o
+.debug_frame    0x00000000       0xc0
+ .debug_frame   0x00000000       0xc0 src/pebbrawl.c.7.o

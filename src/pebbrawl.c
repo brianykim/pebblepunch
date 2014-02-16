@@ -6,6 +6,10 @@ void accel_data_handler(AccelData*, uint32_t);
 static Window *window;
 static TextLayer *text_layer;
 
+typedef enum {PUNCH, BLOCK, NEUTRAL} State;
+State state = NEUTRAL;
+uint8_t blockcount = 0;
+bool blockreset = false;
 
 
 static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
@@ -45,9 +49,28 @@ void accel_data_handler(AccelData *data, uint32_t num_samples)
 {
   for(uint32_t i = 0; i < num_samples; ++i)
   {
-    APP_LOG(APP_LOG_LEVEL_DEBUG, "%i", data[i].x);
-    APP_LOG(APP_LOG_LEVEL_DEBUG, "%i", data[i].y);
-    APP_LOG(APP_LOG_LEVEL_DEBUG, "%i", data[i].z);
+    if(data[i].x > 1200)
+    {
+      APP_LOG(APP_LOG_LEVEL_DEBUG, "%i %i %i %s", data[i].x, data[i].y, data[i].z, "punch");
+      blockreset = true;
+      return;
+    }
+    else if(blockreset && data[i].x < -800)
+    {
+      APP_LOG(APP_LOG_LEVEL_DEBUG, "%i %i %i %s", data[i].x, data[i].y, data[i].z, "block");
+      ++blockcount;
+      if(blockcount > 200)
+      {
+        blockreset = false;
+        return;
+      }
+      return;
+    }
+    else if(!blockreset && data[i].x > -600)
+    {
+      blockreset = true;
+      return;
+    }
   }
 }
 
@@ -62,7 +85,7 @@ static void init(void) {
   window_stack_push(window, animated);
 
   accel_service_set_sampling_rate(ACCEL_SAMPLING_10HZ);
-  accel_data_service_subscribe(10, &accel_data_handler);//problem is here
+  accel_data_service_subscribe(10, &accel_data_handler);
 }
 
 static void deinit(void) {
